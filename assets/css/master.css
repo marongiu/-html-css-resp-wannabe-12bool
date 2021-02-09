@@ -28,7 +28,7 @@ img {
   margin-top: 100px;
 }
 
-section#work-title h2{
+section#work-title h2 {
   font-size: 2em;
   margin-bottom: 20px;
 }
@@ -39,3 +39,29 @@ section#work-paragraph h3 {
 }
 
 /* Sezione 3 ''Perchè Cademi'' */
+
+
+#why {
+  text-align: center;
+}
+
+#why-title h2 {
+  font-size: 2em;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+section.cademy img {
+  margin-top: 10px;
+  height: 260px;
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+section.cademy h3, section.cademy p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
