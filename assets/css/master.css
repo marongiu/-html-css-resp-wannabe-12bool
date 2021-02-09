@@ -43,14 +43,12 @@ section.work-paragraph h3 {
 
 #why {
   text-align: center;
+  margin-top: 100px;
 }
 
 #why-title h2 {
+  margin-top: 15px;
   font-size: 2em;
-}
-
-.mt-100 {
-  margin-top: 100px;
 }
 
 section.cademy img {
@@ -64,4 +62,46 @@ section.cademy img {
 section.cademy h3, section.cademy p {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+/* Eliminazione margini device */
+@media all and (max-width: 767px){
+
+  img, section.cademy img {
+    height: 120px;
+  }
+
+  .title {
+    margin-top: 20px;
+  }
+
+  #lessons {
+    background-color: #F2F2CD;
+  }
+
+  .bg-grey {
+    background-color: #ffff;
+  }
+
+  .bg-xs {
+    background-color: #F2F2CD;
+  }
+
+  #work, #why {
+    margin-top: 20px;
+  }
+
+
+}
+
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .md-top {
+    margin-top: 20px;
+  }
+
+  .title {
+    margin-top: 20px;
+  }
+
 }
