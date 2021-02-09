@@ -16,3 +16,26 @@ img {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+/* Sezione 2 ''Come funziona'' */
+
+.bg-grey {
+  background-color: #F9F9F9;
+}
+
+#work {
+  text-align: center;
+  margin-top: 100px;
+}
+
+section#work-title h2{
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+section#work-paragraph h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Sezione 3 ''Perchè Cademi'' */
